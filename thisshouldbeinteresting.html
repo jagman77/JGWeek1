@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <style>
+        .container {
+            max-width: 900px;
+            margin: auto 10px;
+            border: solid 1px darkgray;
+            padding: 20px;
+        }
+
+        header nav {
+            max-width: auto;
+            padding: 15px;
+            background-color: #868585
+        }
+
+
+        .container header ul {
+            display: block;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+
+        .container header li {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: rgb(199, 199, 199);            
+            margin: .3em;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .container header ul {
+                display: block;
+            }
+
+            .container header li {
+                display: block;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                            <a href="#">Call Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content">
+            <h1>This is the header</h1>
+            <h4>Sub headers are cool</h4>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut diam justo, eleifend ac enim vitae, posuere tincidunt
+                quam. Pellentesque pretium neque at eleifend pretium. Morbi imperdiet sapien diam, in iaculis nisl auctor
+                et. Pellentesque eget gravida leo. Sed pharetra suscipit lorem et dictum. Nam non ligula non mauris placerat
+                porta. Quisque non magna at ante euismod mattis hendrerit dignissim quam. Nulla convallis quis lorem a laoreet.</p>
+        </div>
+    </div>
+</body>
+
+</html>
